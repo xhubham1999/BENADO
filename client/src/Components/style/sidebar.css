@@ -1,0 +1,41 @@
+.Sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100vh;
+  background-color: #343a40; /* Dark background */
+  color: white;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.sidebar-header {
+  border-bottom: 1px solid #495057;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin-bottom: 10px;
+}
+
+
+.nav-link .fa, .dropdown-item .fa {
+  margin-right: 10px;
+}
+
+.nav-item .dropdown-menu {
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-item:hover {
+  background-color: #495057;
+}

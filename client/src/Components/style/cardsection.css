@@ -1,0 +1,66 @@
+.admin-card {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .admin-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .card-section {
+    text-align: center;
+    color: white;
+   
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .card-section h5 {
+    margin-bottom: 10px;
+  }
+  
+  .order-col {
+    border: 1px solid #4CAF50; /* Green border for Today's Orders */
+  }
+  
+  .intransit-col {
+    border: 1px solid #FF9800; /* Orange border for In-transit Orders */
+  }
+  
+  .customers-col {
+    border: 1px solid #E91E63; /* Pink border for Total Customers */
+  }
+  
+  .order-col .card-section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .intransit-col .card-section {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  
+  
+  .card-section:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+  
+  .icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    font-size: 40px;
+  }
+  

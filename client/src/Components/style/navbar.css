@@ -1,0 +1,41 @@
+.avatar {
+    margin: auto 6px 3px 20px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .navbar {
+    background: linear-gradient(to right, #141e30, #243b55);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    height: 70px;
+   
+  }
+  
+  .nav-link,
+  .navbar-brand,
+  .navbar-nav .nav-dropdown .dropdown-item {
+    color: white !important;
+    background: gray;
+  }
+  
+  .navbar-nav .nav-dropdown .dropdown-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  
+  /* Custom CSS to move profile section to the far right */
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .profile-dropdown {
+    margin-left: auto;
+  }
+  
